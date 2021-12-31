@@ -3,10 +3,10 @@
   "headline": "Загрузчик приложений",
   "extension": "Версия MSX: 1.0.0",
   "version": "1.0.0",
-  "parameter": "content:http://192.168.4.28/msx/start.json",
+  "parameter": "content:http://arlando2022.github.io/Lampa/msx/start.json",
   "note": "For this service, Media Station X 0.1.120 or higher is needed",
   "action": "[settings:validate_links:0|home]",
-  "dictionary": "http://192.168.4.28/msx/lang/ru.json",
+  "dictionary": "http://arlando2022.github.io/Lampa/msx/lang/ru.json",
   "pages": [
     {
       "items": [
@@ -19,9 +19,9 @@
         {
           "type": "control",
           "layout": "0,0,5,1",
-          "image": "http://192.168.4.28/msx-logo.png",
+          "image": "http://arlando2022.github.io/Lampa/msx-logo.png",
           "label": "Lampa",
-          "action": "link:http://192.168.4.28",
+          "action": "link:http://arlando2022.github.io/Lampa",
           "selection": {
             "important": true,
             "action": "update:content:description",
